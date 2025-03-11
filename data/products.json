@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with adjustable DPI and long battery life.",
+      "price": 25.99,
+      "category": "Electronics",
+      "inventory": 50,
+      "imageUrl": "https://example.com/images/wireless-mouse.jpg"
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "description": "RGB backlit mechanical keyboard with blue switches for tactile feedback.",
+      "price": 79.99,
+      "category": "Electronics",
+      "inventory": 30,
+      "imageUrl": "https://example.com/images/mechanical-keyboard.jpg"
+    },
+    {
+      "name": "Bluetooth Headphones",
+      "description": "Over-ear noise-canceling Bluetooth headphones with 30-hour battery life.",
+      "price": 99.99,
+      "category": "Electronics",
+      "inventory": 20,
+      "imageUrl": "https://example.com/images/bluetooth-headphones.jpg"
+    },
+    {
+      "name": "Stainless Steel Water Bottle",
+      "description": "Insulated stainless steel water bottle keeps drinks hot or cold for hours.",
+      "price": 19.99,
+      "category": "Home & Kitchen",
+      "inventory": 100,
+      "imageUrl": "https://example.com/images/water-bottle.jpg"
+    },
+    {
+      "name": "Running Shoes",
+      "description": "Lightweight running shoes with cushioned sole for maximum comfort.",
+      "price": 59.99,
+      "category": "Footwear",
+      "inventory": 40,
+      "imageUrl": "https://example.com/images/running-shoes.jpg"
+    }
+  ]
+  

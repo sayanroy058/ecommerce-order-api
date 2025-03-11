@@ -1,0 +1,159 @@
+{
+    "info": {
+      "name": "E-commerce API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Customers",
+        "item": [
+          {
+            "name": "Get All Customers",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/customers"
+            }
+          },
+          {
+            "name": "Get Single Customer",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/customers/:id"
+            }
+          },
+          {
+            "name": "Create Customer",
+            "request": {
+              "method": "POST",
+              "url": "{{base_url}}/api/customers",
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"name\": \"John Doe\", \"email\": \"john@example.com\" }",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Products",
+        "item": [
+          {
+            "name": "Get All Products",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/products"
+            }
+          },
+          {
+            "name": "Get Single Product",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/products/:id"
+            }
+          },
+          {
+            "name": "Create Product",
+            "request": {
+              "method": "POST",
+              "url": "{{base_url}}/api/products",
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"name\": \"Laptop\", \"price\": 1200, \"category\": \"Electronics\" }",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "Update Product",
+            "request": {
+              "method": "PUT",
+              "url": "{{base_url}}/api/products/:id",
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"price\": 1100 }",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "Delete Product",
+            "request": {
+              "method": "DELETE",
+              "url": "{{base_url}}/api/products/:id"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Orders",
+        "item": [
+          {
+            "name": "Get Customer Orders",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/customers/:customerId/orders"
+            }
+          },
+          {
+            "name": "Get Single Order",
+            "request": {
+              "method": "GET",
+              "url": "{{base_url}}/api/orders/:id"
+            }
+          },
+          {
+            "name": "Create Order",
+            "request": {
+              "method": "POST",
+              "url": "{{base_url}}/api/orders",
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"customerId\": \"12345\", \"items\": [{\"productId\": \"67890\", \"quantity\": 2}], \"shippingAddress\": \"123 Street, City\" }",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "Update Order",
+            "request": {
+              "method": "PUT",
+              "url": "{{base_url}}/api/orders/:id",
+              "body": {
+                "mode": "raw",
+                "raw": "{ \"status\": \"shipped\" }",
+                "options": {
+                  "raw": {
+                    "language": "json"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "Cancel Order",
+            "request": {
+              "method": "DELETE",
+              "url": "{{base_url}}/api/orders/:id"
+            }
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+[
+    {
+      "customerId": "650f1b3e1234567890abcdef",
+      "orderDate": "2024-03-01T10:15:30.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "productId": "650f1c4e0987654321abcdef",
+          "quantity": 2,
+          "price": 25.99
+        },
+        {
+          "productId": "650f1c5e234567890abcdef1",
+          "quantity": 1,
+          "price": 79.99
+        }
+      ],
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "totalAmount": 131.97,
+      "trackingNumber": "TRK123456789"
+    },
+    {
+      "customerId": "650f1b3e0987654321abcdef",
+      "orderDate": "2024-03-05T14:30:00.000Z",
+      "status": "shipped",
+      "items": [
+        {
+          "productId": "650f1c6e1234567890abcdef",
+          "quantity": 1,
+          "price": 99.99
+        }
+      ],
+      "shippingAddress": {
+        "street": "456 Elm St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "totalAmount": 99.99,
+      "trackingNumber": "TRK987654321"
+    },
+    {
+      "customerId": "650f1b3e4567890123abcdef",
+      "orderDate": "2024-03-10T09:45:00.000Z",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "650f1c7e0987654321abcdef",
+          "quantity": 3,
+          "price": 19.99
+        }
+      ],
+      "shippingAddress": {
+        "street": "789 Pine St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "totalAmount": 59.97,
+      "trackingNumber": "TRK567890123"
+    }
+  ]
+  
